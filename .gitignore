@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# The authors' code and data, cloned next to our files (we do not copy them here)
+ST-SSDL/
+data/raw/
+data/downloads/
+
+# Prepared window files and anchor variants (large, rebuilt by our preparation script)
+data/prepared/
+
+# Model checkpoints and saved test predictions (large)
+checkpoints/
+predictions/
+*.pt
+*.pth
+
+# Cluster job logs
+slurm-*.out
+slurm-*.err
+
+# Local settings and secrets
+.env
+*.key
+
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
